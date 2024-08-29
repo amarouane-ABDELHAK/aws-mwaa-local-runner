@@ -19,5 +19,5 @@ export CFLAGS="-DSQLITE_ENABLE_FTS3 \
     -fPIC"
 export PREFIX="/usr/local"
 LIBS="-lm" ./configure --disable-tcl --enable-shared --enable-tempstore=always --prefix="$PREFIX"
-make
-make install
+# make
+# make install
